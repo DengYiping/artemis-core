@@ -1,3 +1,4 @@
 test/
 *.dll
 *.exe
+dump.dat

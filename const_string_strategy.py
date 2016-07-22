@@ -6,7 +6,19 @@ import json
 import commands
 import binascii
 import esm
+import time
+class Timer:
+    def __init__(self):
+        self.start = time.time()
+    def restart(self):
+        self.start = time.time()
 
+    def get_time_hhmmss(self):
+        end = time.time()
+        m, s = divmod(end - self.start, 60)
+        h, m = divmod(m, 60)
+        timer_str = "%02d:%02d:%02d" % (h, m, s)
+        return timer_str
 def memo(f):
     cache = {}
     def memorized(x):
@@ -73,6 +85,7 @@ class DAO:
         self.conn.close()
 
 def main():
+    timer = Timer()
     dir_path = sys.argv[1]
     dao = DAO("166.111.82.26", 3306, "root", "123456", "Artemis")
     print "Connected to the database"
@@ -90,7 +103,6 @@ def main():
         print "ID: ", str(comp)
         print "Total: ", str(signature_num)
         print "-------"
-
         results = map(finder, executables)
 
         for name, hit in results:
@@ -102,5 +114,6 @@ def main():
                 print "-------"
         print "-----------------------------------------------------------------"
     dao.close()
+    print timer.get_time_hhmmss()
 if __name__ == "__main__":
     main()
