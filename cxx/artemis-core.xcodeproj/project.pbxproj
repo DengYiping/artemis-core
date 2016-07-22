@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D22B21321D41AFD0009F5FEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B21311D41AFD0009F5FEB /* main.cpp */; };
+		D22B213A1D41B017009F5FEB /* ahocorasick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B21381D41B017009F5FEB /* ahocorasick.cpp */; };
+		D22B213E1D420A7C009F5FEB /* data_access.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D22B213C1D420A7C009F5FEB /* data_access.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D22B212C1D41AFD0009F5FEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D22B212E1D41AFD0009F5FEB /* artemis-core */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "artemis-core"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22B21311D41AFD0009F5FEB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D22B21381D41B017009F5FEB /* ahocorasick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ahocorasick.cpp; sourceTree = "<group>"; };
+		D22B21391D41B017009F5FEB /* ahocorasick.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ahocorasick.hpp; sourceTree = "<group>"; };
+		D22B213B1D420902009F5FEB /* threadtool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadtool.h; sourceTree = "<group>"; };
+		D22B213C1D420A7C009F5FEB /* data_access.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = data_access.cpp; sourceTree = "<group>"; };
+		D22B213D1D420A7C009F5FEB /* data_access.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = data_access.hpp; sourceTree = "<group>"; };
+		D22B213F1D42193E009F5FEB /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22B212B1D41AFD0009F5FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D22B21251D41AFD0009F5FEB = {
+			isa = PBXGroup;
+			children = (
+				D22B21301D41AFD0009F5FEB /* artemis-core */,
+				D22B212F1D41AFD0009F5FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22B212F1D41AFD0009F5FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22B212E1D41AFD0009F5FEB /* artemis-core */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22B21301D41AFD0009F5FEB /* artemis-core */ = {
+			isa = PBXGroup;
+			children = (
+				D22B213B1D420902009F5FEB /* threadtool.h */,
+				D22B21311D41AFD0009F5FEB /* main.cpp */,
+				D22B213F1D42193E009F5FEB /* json.hpp */,
+				D22B21381D41B017009F5FEB /* ahocorasick.cpp */,
+				D22B21391D41B017009F5FEB /* ahocorasick.hpp */,
+				D22B213C1D420A7C009F5FEB /* data_access.cpp */,
+				D22B213D1D420A7C009F5FEB /* data_access.hpp */,
+			);
+			path = "artemis-core";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22B212D1D41AFD0009F5FEB /* artemis-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22B21351D41AFD0009F5FEB /* Build configuration list for PBXNativeTarget "artemis-core" */;
+			buildPhases = (
+				D22B212A1D41AFD0009F5FEB /* Sources */,
+				D22B212B1D41AFD0009F5FEB /* Frameworks */,
+				D22B212C1D41AFD0009F5FEB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "artemis-core";
+			productName = "artemis-core";
+			productReference = D22B212E1D41AFD0009F5FEB /* artemis-core */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22B21261D41AFD0009F5FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Artemis;
+				TargetAttributes = {
+					D22B212D1D41AFD0009F5FEB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D22B21291D41AFD0009F5FEB /* Build configuration list for PBXProject "artemis-core" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D22B21251D41AFD0009F5FEB;
+			productRefGroup = D22B212F1D41AFD0009F5FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22B212D1D41AFD0009F5FEB /* artemis-core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22B212A1D41AFD0009F5FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22B21321D41AFD0009F5FEB /* main.cpp in Sources */,
+				D22B213E1D420A7C009F5FEB /* data_access.cpp in Sources */,
+				D22B213A1D41B017009F5FEB /* ahocorasick.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D22B21331D41AFD0009F5FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D22B21341D41AFD0009F5FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D22B21361D41AFD0009F5FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D22B21371D41AFD0009F5FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22B21291D41AFD0009F5FEB /* Build configuration list for PBXProject "artemis-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22B21331D41AFD0009F5FEB /* Debug */,
+				D22B21341D41AFD0009F5FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22B21351D41AFD0009F5FEB /* Build configuration list for PBXNativeTarget "artemis-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22B21361D41AFD0009F5FEB /* Debug */,
+				D22B21371D41AFD0009F5FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D22B21261D41AFD0009F5FEB /* Project object */;
+}
