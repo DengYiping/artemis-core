@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(artemis-core)
+include_directories(include)
+file(GLOB SOURCE "src/*.cpp")
+add_executable(artemis-core ${SOURCE})
+target_compile_features(artemis-core PRIVATE cxx_range_for)
