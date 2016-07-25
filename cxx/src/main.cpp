@@ -15,12 +15,15 @@
 void large_memory_mode();
 void limited_memory_mode();
 
-void log(int id, int count){
+void log(int id, int count, std::string filename){
   using nlohmann::json;
-  json js;
-  js["id"] = id;
-  js["count"] = count;
-  std::cout<<js<<std::endl;
+  if(count > 5){
+    json js;
+    js["id"] = id;
+    js["count"] = count;
+    js["file"] = filename;
+    std::cout<<js<<std::endl;
+  }
 }
 
 int main(int argc, const char * argv[]) {
@@ -66,7 +69,7 @@ void large_memory_mode(){
           }
         }
         int count = match_set.size();
-        log(id, count);
+        log(id, count, file);
       }
     }
   }
@@ -99,7 +102,7 @@ void limited_memory_mode(){
           }
         }
         int count = match_set.size();
-        log(id, count);
+        log(id, count, file);
       }
     }
   }
