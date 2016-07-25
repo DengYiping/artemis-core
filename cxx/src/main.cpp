@@ -9,21 +9,23 @@
 #include <iostream>
 #include "ahocorasick.hpp"
 #include "data_access.hpp"
+#include "aho_corasick.hpp"
 int main(int argc, const char * argv[]) {
   // insert code here...
   std::string filename = "dump.dat";
   auto signList = util::getAllSignatures(filename);
-  std::vector<util::Ahocorasick*> acVector;
+  std::vector<std::tuple<int, aho_corasick::trie*>> trees;
   for(auto sign:signList){
-    util::Ahocorasick* ac = new util::Ahocorasick(std::get<0>(sign));
+    int id = std::get<0>(sign);
+    aho_corasick::trie* trie = new aho_corasick::trie();
     for(auto entry: std::get<1>(sign)){
-      std::cout<<"insert one: "<<entry<<std::endl;
-      ac->insert(entry.c_str(), entry.size() - 1);
+      trie->insert(entry);
     }
-    acVector.push_back(ac);
+    trees.push_back(std::make_tuple(id,trie));
   }
-  std::cout<<"AC number"<<std::endl;
-  std::cout<<acVector.size()<<std::endl;
+  
+  std::cout<<"AC number"<<trees.size()<<std::endl;
+  
   std::string tmp1;
   std::cin>>tmp1;
   return 0;
