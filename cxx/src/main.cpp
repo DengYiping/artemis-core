@@ -11,15 +11,14 @@
 #include "data_access.hpp"
 int main(int argc, const char * argv[]) {
   // insert code here...
-  auto fileLists = util::getFilenameVector("../");
-  std::cout<<fileLists.size()<<std::endl;
   std::string filename = "dump.dat";
   auto signList = util::getAllSignatures(filename);
   std::vector<util::Ahocorasick*> acVector;
   for(auto sign:signList){
     util::Ahocorasick* ac = new util::Ahocorasick(std::get<0>(sign));
     for(auto entry: std::get<1>(sign)){
-      ac->insert(entry.c_str(), entry.size());
+      std::cout<<"insert one: "<<entry<<std::endl;
+      ac->insert(entry.c_str(), entry.size() - 1);
     }
     acVector.push_back(ac);
   }
