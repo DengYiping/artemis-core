@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A3160EAEFA7E48CF8EAAF1BC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 21E03732313949EA91D50742 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				BAAB0D4A97A54E06B5FC8A73 /* CMake Rules */,
+			);
+			dependencies = (
+				F1DB2F7E517E4754AD6B6661 /* PBXTargetDependency */,
+				E39417E2F3D045CBBB1BF02C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F920E9378B104178B1BB96D0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E6E7733DD19A4124969C7AE3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2036BDBCC489464B860F53D0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8D234A1922E94CF3942C10BF /* /Users/Scott/Code/artemis-core/cxx/include/data_access.hpp */ = {isa = PBXBuildFile; fileRef = 0AF0006F2FC24DE5AE03C6A2 /* /Users/Scott/Code/artemis-core/cxx/include/data_access.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A0536D294B664783BD464552 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2D1CE73C04BD4830805B86C8 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		A23DF02BCAF845D18FB7A34F /* /Users/Scott/Code/artemis-core/cxx/src/data_access.cpp */ = {isa = PBXBuildFile; fileRef = 2B55F158DFEA40308894D700 /* /Users/Scott/Code/artemis-core/cxx/src/data_access.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A5CFCF6F1C3F42199E0EB1EC /* /Users/Scott/Code/artemis-core/cxx/include/ahocorasick.hpp */ = {isa = PBXBuildFile; fileRef = B6B7E55099044E98ABF01BD6 /* /Users/Scott/Code/artemis-core/cxx/include/ahocorasick.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B7205E46376646C894202BD9 /* /Users/Scott/Code/artemis-core/cxx/include/json.hpp */ = {isa = PBXBuildFile; fileRef = EBD86A63CE5F4604BD05D55A /* /Users/Scott/Code/artemis-core/cxx/include/json.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C2CB8CB82BFF4BE3B6080D00 /* /Users/Scott/Code/artemis-core/cxx/include/threadtool.h */ = {isa = PBXBuildFile; fileRef = 02F7ED3C2E1D41C3A3E76BB9 /* /Users/Scott/Code/artemis-core/cxx/include/threadtool.h */; settings = {COMPILER_FLAGS = ""; }; };
+		DB4C1D4BAB7144CD9FE8BF29 /* /Users/Scott/Code/artemis-core/cxx/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E245AFA87B1448EA8CE65062 /* /Users/Scott/Code/artemis-core/cxx/src/main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FCF426E178394A9DA80121AE /* /Users/Scott/Code/artemis-core/cxx/src/ahocorasick.cpp */ = {isa = PBXBuildFile; fileRef = CEE130188F2349F89B15CF26 /* /Users/Scott/Code/artemis-core/cxx/src/ahocorasick.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2E2D37BF258D4FE6B187B6A3 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		38E35B41B5344A039AC6012B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		75B2047FD93649A7856DE080 = {
+			isa = PBXBuildStyle;
+		};
+		7D3F366435074959A9350F2B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CC039C7D047D490C8566B8E1 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0020AF687B29482A91D7A8A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3564934F51C84F90813BD61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F920E9378B104178B1BB96D0;
+			remoteInfo = ZERO_CHECK;
+		};
+		7AA246E6FBE944308D2DF394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3564934F51C84F90813BD61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F920E9378B104178B1BB96D0;
+			remoteInfo = ZERO_CHECK;
+		};
+		E876C527F4C843EBA67A56A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3564934F51C84F90813BD61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE65877CB084CFA95EE26C8;
+			remoteInfo = "artemis-core";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F7ED3C2E1D41C3A3E76BB9 /* /Users/Scott/Code/artemis-core/cxx/include/threadtool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = threadtool.h; path = include/threadtool.h; sourceTree = SOURCE_ROOT; };
+		0AF0006F2FC24DE5AE03C6A2 /* /Users/Scott/Code/artemis-core/cxx/include/data_access.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = data_access.hpp; path = include/data_access.hpp; sourceTree = SOURCE_ROOT; };
+		2B55F158DFEA40308894D700 /* /Users/Scott/Code/artemis-core/cxx/src/data_access.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = data_access.cpp; path = src/data_access.cpp; sourceTree = SOURCE_ROOT; };
+		2D1CE73C04BD4830805B86C8 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9306D5A46EB641B2B86DD146 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AC9A0FBFEDF94E6F8A01F82A /* artemis-core */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "artemis-core"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B7E55099044E98ABF01BD6 /* /Users/Scott/Code/artemis-core/cxx/include/ahocorasick.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ahocorasick.hpp; path = include/ahocorasick.hpp; sourceTree = SOURCE_ROOT; };
+		C9A2D2BE9F2844C8925949ED /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CEE130188F2349F89B15CF26 /* /Users/Scott/Code/artemis-core/cxx/src/ahocorasick.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ahocorasick.cpp; path = src/ahocorasick.cpp; sourceTree = SOURCE_ROOT; };
+		E245AFA87B1448EA8CE65062 /* /Users/Scott/Code/artemis-core/cxx/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		EBD86A63CE5F4604BD05D55A /* /Users/Scott/Code/artemis-core/cxx/include/json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = json.hpp; path = include/json.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02A434CDA9FB46F0B0E85E0B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEE130188F2349F89B15CF26 /* /Users/Scott/Code/artemis-core/cxx/src/ahocorasick.cpp */,
+				2B55F158DFEA40308894D700 /* /Users/Scott/Code/artemis-core/cxx/src/data_access.cpp */,
+				E245AFA87B1448EA8CE65062 /* /Users/Scott/Code/artemis-core/cxx/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		211EA8DA590E450F852F7A42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9A0FBFEDF94E6F8A01F82A /* artemis-core */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AAA20C3EC92431DA21B3040 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		592E820A75EB4B41BF74C9A5 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3AAA20C3EC92431DA21B3040 /* CMake Rules */,
+				9306D5A46EB641B2B86DD146 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		6A054E46F0864FAF976DB2F4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BA0C9B533955435AABBD1EA0 /* artemis-core */,
+				82B5FCD43F2B4A9DB29DC8E2 /* ALL_BUILD */,
+				592E820A75EB4B41BF74C9A5 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		7139A98489F6457AA84DE4BC = {
+			isa = PBXGroup;
+			children = (
+				6A054E46F0864FAF976DB2F4 /* Sources */,
+				9B6AE672387F45349CBFF423 /* Resources */,
+				211EA8DA590E450F852F7A42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B5FCD43F2B4A9DB29DC8E2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				D7717ED404F84DABA561B5E0 /* CMake Rules */,
+				C9A2D2BE9F2844C8925949ED /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9B6AE672387F45349CBFF423 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B67CD73DAF7643AAAB22D047 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6B7E55099044E98ABF01BD6 /* /Users/Scott/Code/artemis-core/cxx/include/ahocorasick.hpp */,
+				0AF0006F2FC24DE5AE03C6A2 /* /Users/Scott/Code/artemis-core/cxx/include/data_access.hpp */,
+				EBD86A63CE5F4604BD05D55A /* /Users/Scott/Code/artemis-core/cxx/include/json.hpp */,
+				02F7ED3C2E1D41C3A3E76BB9 /* /Users/Scott/Code/artemis-core/cxx/include/threadtool.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BA0C9B533955435AABBD1EA0 /* artemis-core */ = {
+			isa = PBXGroup;
+			children = (
+				02A434CDA9FB46F0B0E85E0B /* Source Files */,
+				B67CD73DAF7643AAAB22D047 /* Header Files */,
+				2D1CE73C04BD4830805B86C8 /* /Users/Scott/Code/artemis-core/cxx/CMakeLists.txt */,
+			);
+			name = "artemis-core";
+			sourceTree = "<group>";
+		};
+		D7717ED404F84DABA561B5E0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE65877CB084CFA95EE26C8 /* artemis-core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EAEC56A859241228800CCB4 /* Build configuration list for PBXNativeTarget "artemis-core" */;
+			buildPhases = (
+				FD4C8E9337D14032BBA64C5D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0009C9FC4DE42DFA6462517 /* PBXTargetDependency */,
+			);
+			name = "artemis-core";
+			productName = "artemis-core";
+			productReference = AC9A0FBFEDF94E6F8A01F82A /* artemis-core */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3564934F51C84F90813BD61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 4B94948D174B4BE2824BD5EC /* Build configuration list for PBXProject "artemis-core" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				38E35B41B5344A039AC6012B /* Debug */,
+				7D3F366435074959A9350F2B /* Release */,
+				CC039C7D047D490C8566B8E1 /* MinSizeRel */,
+				2E2D37BF258D4FE6B187B6A3 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7139A98489F6457AA84DE4BC;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				A3160EAEFA7E48CF8EAAF1BC /* ALL_BUILD */,
+				F920E9378B104178B1BB96D0 /* ZERO_CHECK */,
+				8CE65877CB084CFA95EE26C8 /* artemis-core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2036BDBCC489464B860F53D0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Scott/Code/artemis-core/cxx/build -f /Users/Scott/Code/artemis-core/cxx/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A72CD501DD594FEC88152B13 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BAAB0D4A97A54E06B5FC8A73 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Scott/Code/artemis-core/cxx/build -f /Users/Scott/Code/artemis-core/cxx/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F7DB265043DF4583BA9A8B56 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD4C8E9337D14032BBA64C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF426E178394A9DA80121AE /* /Users/Scott/Code/artemis-core/cxx/src/ahocorasick.cpp */,
+				A23DF02BCAF845D18FB7A34F /* /Users/Scott/Code/artemis-core/cxx/src/data_access.cpp */,
+				DB4C1D4BAB7144CD9FE8BF29 /* /Users/Scott/Code/artemis-core/cxx/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0009C9FC4DE42DFA6462517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F920E9378B104178B1BB96D0 /* ZERO_CHECK */;
+			targetProxy = 0020AF687B29482A91D7A8A6 /* PBXContainerItemProxy */;
+		};
+		E39417E2F3D045CBBB1BF02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE65877CB084CFA95EE26C8 /* artemis-core */;
+			targetProxy = E876C527F4C843EBA67A56A7 /* PBXContainerItemProxy */;
+		};
+		F1DB2F7E517E4754AD6B6661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F920E9378B104178B1BB96D0 /* ZERO_CHECK */;
+			targetProxy = 7AA246E6FBE944308D2DF394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0317E6975E9C4801B92DC7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "artemis-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0B69D450F47044F9B613E0EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build/build";
+			};
+			name = MinSizeRel;
+		};
+		2B3515C8DC5F40D08A83F11A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build/build";
+			};
+			name = Release;
+		};
+		5F2A480B83674C8EA4EE8009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		62461A948AC34D33B112C540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		743A4C63E33C43D3965674BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7D2A66EDA6254AC487A60F9E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "artemis-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		96F149B77A5C4C63B3E881C7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9AE3ABAA991E495DBAC5D03D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9EE371B738544F6CADEF1338 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A2894146D92E45A4A3B17669 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "artemis-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D13DEC8FEA494BA3A67B049C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D387385771E1478B85816810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build/build";
+			};
+			name = Debug;
+		};
+		D58C75EAB438479D9AAFE1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "artemis-core";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EDEB590B07974EC8A6F31E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FCE1137FD5654F0C98A1FB1C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Scott/Code/artemis-core/cxx/include");
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Scott/Code/artemis-core/cxx/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21E03732313949EA91D50742 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2A480B83674C8EA4EE8009 /* Debug */,
+				EDEB590B07974EC8A6F31E4B /* Release */,
+				96F149B77A5C4C63B3E881C7 /* MinSizeRel */,
+				9EE371B738544F6CADEF1338 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3EAEC56A859241228800CCB4 /* Build configuration list for PBXNativeTarget "artemis-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58C75EAB438479D9AAFE1E3 /* Debug */,
+				0317E6975E9C4801B92DC7AB /* Release */,
+				7D2A66EDA6254AC487A60F9E /* MinSizeRel */,
+				A2894146D92E45A4A3B17669 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B94948D174B4BE2824BD5EC /* Build configuration list for PBXProject "artemis-core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D387385771E1478B85816810 /* Debug */,
+				2B3515C8DC5F40D08A83F11A /* Release */,
+				0B69D450F47044F9B613E0EB /* MinSizeRel */,
+				9AE3ABAA991E495DBAC5D03D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6E7733DD19A4124969C7AE3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743A4C63E33C43D3965674BF /* Debug */,
+				62461A948AC34D33B112C540 /* Release */,
+				D13DEC8FEA494BA3A67B049C /* MinSizeRel */,
+				FCE1137FD5654F0C98A1FB1C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3564934F51C84F90813BD61A /* Project object */;
+}

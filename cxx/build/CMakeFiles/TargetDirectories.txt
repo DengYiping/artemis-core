@@ -1,0 +1,3 @@
+/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/artemis-core.dir
+/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/ALL_BUILD.dir
+/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/ZERO_CHECK.dir
