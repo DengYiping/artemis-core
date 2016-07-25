@@ -20,9 +20,6 @@ namespace util{
 /**
  Initialize Ahocorasick dictionary tree root
  */
-util::Ahocorasick::Ahocorasick(){
-  root = new Node();
-}
 
 void util::Ahocorasick::insert(const char *chr, int length){
   Node* ptr = root;

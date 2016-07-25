@@ -1,4 +1,4 @@
-e //
+//
 //  main.cpp
 //  artemis-core
 //
@@ -9,25 +9,23 @@ e //
 #include <iostream>
 #include "ahocorasick.hpp"
 #include "data_access.hpp"
-std::vector<std::tuple<int, util::Ahocorasick*>> make_acs(std::vector<std::tuple<int, std::vector<std::string>>>& raw);
 int main(int argc, const char * argv[]) {
   // insert code here...
   auto fileLists = util::getFilenameVector("../");
   std::cout<<fileLists.size()<<std::endl;
   std::string filename = "dump.dat";
   auto signList = util::getAllSignatures(filename);
-  auto acs = make_acs(signList);
+  std::vector<util::Ahocorasick*> acVector;
+  for(auto sign:signList){
+    util::Ahocorasick* ac = new util::Ahocorasick(std::get<0>(sign));
+    for(auto entry: std::get<1>(sign)){
+      ac->insert(entry.c_str(), entry.size());
+    }
+    acVector.push_back(ac);
+  }
   std::cout<<"AC number"<<std::endl;
-  std::cout<<signList.size()<<std::endl;
+  std::cout<<acVector.size()<<std::endl;
   std::string tmp1;
   std::cin>>tmp1;
   return 0;
-}
-
-std::vector<util::AC> make_acs(std::vector<std::tuple<int, std::vector<std::string>>> raw){
-  std::vector<util::AC> result;
-  for(std::tuple<int, std::vector<std::string>> row : raw){
-    result.push_back(util::AC(row));
-  }
-  return result;
 }

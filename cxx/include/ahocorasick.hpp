@@ -32,13 +32,12 @@ namespace util{
     }
   };
 
-
-
   class Ahocorasick{
   private:
     Node* root;
   public:
-    Ahocorasick();
+    int id;
+    Ahocorasick(int id_):id(id_){}
 
     //insert function
     void insert(const char* chr, int length);
@@ -52,31 +51,6 @@ namespace util{
     ~Ahocorasick();
   };
 
-
-  class AC{
-  public:
-    int id;
-    Ahocorasick* ac;
-    AC(int id_, Ahocorasick* ac_){
-      id = id_;
-      ac = ac_;
-    }
-
-    AC(std::tuple<int, std::vector<std::string>>& raw){
-      id = std::get<0>(raw);
-      std::vector<std::string> sign_strings = std::get<1>(raw);
-      ac = new util::Ahocorasick();
-      for(std::string& s:sign_strings){
-        if(s.size()){
-          ac->insert(s.c_str(), s.size());
-        }
-      }
-      ac->fix();
-    }
-    ~AC(){
-      delete ac;
-    }
-  };
 }
 
 
