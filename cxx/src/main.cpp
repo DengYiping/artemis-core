@@ -28,6 +28,7 @@ int main(int argc, const char * argv[]) {
   for(std::string& path:fileLists){
     std::cout<<path<<std::endl;
   }
-  
+  auto signList = util::getAllSignatures(std::string("dump.dat"));
+  std::cout<<signList.size()<<std::endl;  
   return 0;
 }

@@ -22,5 +22,6 @@ namespace util{
    @return: relative path of the file
    */
   std::vector<std::string> getFilenameVector(std::string folder_name);
+  std::vector<std::tuple<int, std::vector<std::string>>> getAllSignatures(std::string& filename);
 }
 #endif /* data_access_hpp */
