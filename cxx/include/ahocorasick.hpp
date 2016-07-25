@@ -37,7 +37,9 @@ namespace util{
     Node* root;
   public:
     int id;
-    Ahocorasick(int id_):id(id_){}
+    Ahocorasick(int id_):id(id_){
+      root = new Node;
+    }
 
     //insert function
     void insert(const char* chr, int length);
