@@ -2,3 +2,4 @@ test/
 *.dll
 *.exe
 dump.dat
+cxx/build/

@@ -19,7 +19,7 @@
 #include <errno.h>
 #include <tuple>
 namespace util{
-  /* 
+  /*
    Some helper function
    */
 
@@ -30,7 +30,7 @@ namespace util{
   {
     static const char* const lut = "0123456789ABCDEF";
     size_t len = input.length();
-    
+
     std::string output;
     output.reserve(2 * len);
     for (size_t i = 0; i < len; ++i)
@@ -41,7 +41,7 @@ namespace util{
     }
     return output;
   }
-  
+
   /* Convert hex string to string
    */
   std::string hex_to_string(const std::string& input)
@@ -49,7 +49,7 @@ namespace util{
     static const char* const lut = "0123456789ABCDEF";
     size_t len = input.length();
     if (len & 1) throw std::invalid_argument("odd length");
-    
+
     std::string output;
     output.reserve(len / 2);
     for (size_t i = 0; i < len; i += 2)
@@ -57,11 +57,11 @@ namespace util{
       char a = input[i];
       const char* p = std::lower_bound(lut, lut + 16, a);
       if (*p != a) throw std::invalid_argument("not a hex digit");
-      
+
       char b = input[i + 1];
       const char* q = std::lower_bound(lut, lut + 16, b);
       if (*q != b) throw std::invalid_argument("not a hex digit");
-      
+
       output.push_back(((p - lut) << 4) | (q - lut));
     }
     return output;
@@ -73,18 +73,18 @@ namespace util{
     DIR *d;
     if ((d = opendir(dir.c_str())) == NULL) return;
     if (dir.at(dir.length() - 1) != '/') dir += "/";
-    
+
     struct dirent *dent;
     struct stat st;
-    
+
     while ((dent = readdir(d)) != NULL) {
       std::string path = dir;
-      
+
       if (std::string(dent->d_name) != "." && std::string(dent->d_name) != "..") {
         path += std::string(dent->d_name);
         const char *p = path.c_str();
         lstat(p, &st);
-        
+
         if (S_ISDIR(st.st_mode)) {
           GetFileListing(files, (path + std::string("/")).c_str());
         } else {
@@ -92,27 +92,27 @@ namespace util{
         }
       }
     }
-    
-    
+
+
     closedir(d);
   }
-  
+
   /* get hex string from file
    */
   std::string getHexString(const std::string& filename){
     std::ifstream t(filename);
     std::string str;
-    
+
     t.seekg(0, std::ios::end);
     str.reserve(t.tellg());
     t.seekg(0, std::ios::beg);
-    
+
     str.assign((std::istreambuf_iterator<char>(t)),
                std::istreambuf_iterator<char>());
-    
+
     return string_to_hex(str);
   }
-  
+
   /* get file list
    */
   std::vector<std::string> getFilenameVector(std::string folder_name){
@@ -120,17 +120,17 @@ namespace util{
     GetFileListing(tmp, folder_name);
     return tmp;
   }
-  
+
   std::vector<std::tuple<int, std::vector<std::string>>> getAllSignatures(std::string& filename){
     std::ifstream f(filename);
     std::string buf;
     std::vector<std::tuple<int, std::vector<std::string>>> result;
-    
+
     while(f.good() && !f.eof() && std::getline(f,buf)){
       using nlohmann::json;
-      
+
       if(buf.size() != 0){
-        json js = buf;
+        json js = json::parse(buf);
         std::vector<std::string> signs;
         int name = js["name"].get<int>();
         json signs_js = js["signatures"];
@@ -139,11 +139,9 @@ namespace util{
         }
         result.push_back(std::make_tuple(name, signs));
       }
-      
-      
     }
-    
+
     return result;
   }
-  
+
 }

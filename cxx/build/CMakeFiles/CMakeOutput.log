@@ -1,256 +1,168 @@
-The system is: Darwin - 15.5.0 - x86_64
+The system is: Linux - 4.4.0-31-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler:  
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags: 
 
 The output was:
 0
-2016-07-25 13:29:55.513 xcodebuild[11614:13364255] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
-
-Check dependencies
-
-Write auxiliary files
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
-
-CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CMakeCCompilerId.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
-
-Ld CompilerIdC normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC
-
-PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC
-    /bin/sh -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
 
 
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
-
-The C compiler identification is AppleClang, found in "/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdC/CompilerIdC"
+The C compiler identification is GNU, found in "/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler:  
+Compiler: /usr/bin/c++ 
 Build flags: 
 Id flags: 
 
 The output was:
 0
-2016-07-25 13:29:57.111 xcodebuild[11630:13364402] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
-
-Check dependencies
-
-Write auxiliary files
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-chmod 0755 /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
-
-CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
-
-Ld CompilerIdCXX normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.11 -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX
-
-PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX
-    /bin/sh -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
-GCC_VERSION=com.apple.compilers.llvm.clang.1_0
-
-** BUILD SUCCEEDED **
 
 
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
-
-The CXX compiler identification is AppleClang, found in "/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/3.6.0/CompilerIdCXX/CompilerIdCXX"
+The CXX compiler identification is GNU, found in "/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_33a52" "-configuration" "Debug"
-2016-07-25 13:29:57.817 xcodebuild[11647:13364473] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_33a52 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/cmTC_33a52.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/testCCompiler.o
-
-Ld Debug/cmTC_33a52 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/cmTC_33a52.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_33a52.build/Objects-normal/x86_64/cmTC_33a52_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_33a52
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_71037/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71037.dir/build.make CMakeFiles/cmTC_71037.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71037.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_71037.dir/testCCompiler.c.o   -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_71037
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71037.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_71037.dir/testCCompiler.c.o  -o cmTC_71037 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_55140" "-configuration" "Debug"
-2016-07-25 13:29:58.445 xcodebuild[11663:13364519] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_55140 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.o
-
-Ld Debug/cmTC_55140 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140
-Apple LLVM version 7.3.0 (clang-703.0.31)
-Target: x86_64-apple-darwin15.5.0
+Run Build Command:"/usr/bin/make" "cmTC_16ff6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16ff6.dir/build.make CMakeFiles/cmTC_16ff6.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_16ff6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ff6.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o  -o cmTC_16ff6  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140 -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
-Framework search paths:
-	/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16ff6' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cczQDXVl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_16ff6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_55140" "-configuration" "Debug"]
-  ignore line: [2016-07-25 13:29:58.445 xcodebuild[11663:13364519] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
-  ignore line: [=== BUILD TARGET cmTC_55140 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTC_55140 normal x86_64]
-  ignore line: [    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140]
-  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.31)]
-  ignore line: [Target: x86_64-apple-darwin15.5.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_16ff6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_16ff6.dir/build.make CMakeFiles/cmTC_16ff6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_16ff6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16ff6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o  -o cmTC_16ff6  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140 -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140 -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140 -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.11.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16ff6' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cczQDXVl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_16ff6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczQDXVl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_55140] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140.LinkFileList] ==> ignore
-    arg [-no_deduplicate] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55140.build/Objects-normal/x86_64/cmTC_55140_dependency_info.dat] ==> ignore
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  Framework search paths: [;/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  collapse framework dir [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
-  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+    arg [cmTC_16ff6] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_16ff6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7195e" "-configuration" "Debug"
-2016-07-25 13:29:59.109 xcodebuild[11680:13364573] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_7195e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/cmTC_7195e.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_7195e normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/cmTC_7195e.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7195e.build/Objects-normal/x86_64/cmTC_7195e_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_7195e
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_b092b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b092b.dir/build.make CMakeFiles/cmTC_b092b.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b092b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_b092b.dir/feature_tests.c.o   -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b092b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b092b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b092b.dir/feature_tests.c.o  -o cmTC_b092b 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -260,30 +172,17 @@ Ld Debug/cmTC_7195e normal x86_64
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_516e4" "-configuration" "Debug"
-2016-07-25 13:29:59.752 xcodebuild[11696:13364635] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_516e4 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/cmTC_516e4.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_516e4 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/cmTC_516e4.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_516e4.build/Objects-normal/x86_64/cmTC_516e4_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_516e4
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_f74f3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f74f3.dir/build.make CMakeFiles/cmTC_f74f3.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f74f3.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_f74f3.dir/feature_tests.c.o   -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f74f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f74f3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f74f3.dir/feature_tests.c.o  -o cmTC_f74f3 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -293,30 +192,17 @@ Ld Debug/cmTC_516e4 normal x86_64
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c9e6e" "-configuration" "Debug"
-2016-07-25 13:30:00.377 xcodebuild[11713:13364753] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_c9e6e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/cmTC_c9e6e.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_c9e6e normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/cmTC_c9e6e.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c9e6e.build/Objects-normal/x86_64/cmTC_c9e6e_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_c9e6e
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_e7edc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7edc.dir/build.make CMakeFiles/cmTC_e7edc.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7edc.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_e7edc.dir/feature_tests.c.o   -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e7edc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7edc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e7edc.dir/feature_tests.c.o  -o cmTC_e7edc 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -324,164 +210,141 @@ Ld Debug/cmTC_c9e6e normal x86_64
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_76753" "-configuration" "Debug"
-2016-07-25 13:30:01.001 xcodebuild[11729:13364799] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_76753 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/cmTC_76753.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/testCXXCompiler.o
-
-Ld Debug/cmTC_76753 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/cmTC_76753.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_76753.build/Objects-normal/x86_64/cmTC_76753_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_76753
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_1b909/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b909.dir/build.make CMakeFiles/cmTC_1b909.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b909.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_1b909.dir/testCXXCompiler.cxx.o -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1b909
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b909.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1b909.dir/testCXXCompiler.cxx.o  -o cmTC_1b909 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b8228" "-configuration" "Debug"
-2016-07-25 13:30:01.618 xcodebuild[11745:13364861] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_b8228 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
-
-Ld Debug/cmTC_b8228 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228
-Apple LLVM version 7.3.0 (clang-703.0.31)
-Target: x86_64-apple-darwin15.5.0
+Run Build Command:"/usr/bin/make" "cmTC_16d8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16d8c.dir/build.make CMakeFiles/cmTC_16d8c.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_16d8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d8c.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_16d8c  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228 -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-@(#)PROGRAM:ld  PROJECT:ld64-264.3.102
-configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
-Library search paths:
-	/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib
-Framework search paths:
-	/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug
-	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/
-
-** BUILD SUCCEEDED **
-
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16d8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvd8jyV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_16d8c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b8228" "-configuration" "Debug"]
-  ignore line: [2016-07-25 13:30:01.618 xcodebuild[11745:13364861] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs]
-  ignore line: [=== BUILD TARGET cmTC_b8228 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
-  ignore line: []
-  ignore line: [Check dependencies]
-  ignore line: []
-  ignore line: [Write auxiliary files]
-  ignore line: [/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64]
-  ignore line: [write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList]
-  ignore line: []
-  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
-  ignore line: [    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export LANG=en_US.US-ASCII]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.6.0_1/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
-  ignore line: []
-  ignore line: [Ld Debug/cmTC_b8228 normal x86_64]
-  ignore line: [    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp]
-  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.11]
-  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228]
-  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.31)]
-  ignore line: [Target: x86_64-apple-darwin15.5.0]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_16d8c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_16d8c.dir/build.make CMakeFiles/cmTC_16d8c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_16d8c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d8c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_16d8c  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.1' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228 -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug]
-            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228 -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228 -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a ]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
-    arg [-demangle] ==> ignore
-    arg [-dynamic] ==> ignore
-    arg [-arch] ==> ignore
-    arg [x86_64] ==> ignore
-    arg [-macosx_version_min] ==> ignore
-    arg [10.11.0] ==> ignore
-    arg [-syslibroot] ==> ignore
-    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk] ==> ignore
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_16d8c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvd8jyV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_16d8c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvd8jyV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_b8228] ==> ignore
-    arg [-filelist] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228.LinkFileList] ==> ignore
-    arg [-no_deduplicate] ==> ignore
-    arg [-v] ==> ignore
-    arg [-search_paths_first] ==> ignore
-    arg [-headerpad_max_install_names] ==> ignore
-    arg [-dependency_info] ==> ignore
-    arg [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b8228.build/Objects-normal/x86_64/cmTC_b8228_dependency_info.dat] ==> ignore
-    arg [-lc++] ==> lib [c++]
-    arg [-lSystem] ==> lib [System]
-    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  Framework search paths: [;/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/]
-  remove lib [System]
-  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  collapse framework dir [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug] ==> [/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
-  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
-  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/usr/lib]
-  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks]
+    arg [cmTC_16d8c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_16d8c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_09c02" "-configuration" "Debug"
-2016-07-25 13:30:02.253 xcodebuild[11761:13364910] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_09c02 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/cmTC_09c02.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_09c02 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/cmTC_09c02.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_09c02.build/Objects-normal/x86_64/cmTC_09c02_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_09c02
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_375e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_375e2.dir/build.make CMakeFiles/cmTC_375e2.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_375e2.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_375e2.dir/feature_tests.cxx.o -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_375e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_375e2.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_375e2.dir/feature_tests.cxx.o  -o cmTC_375e2 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -532,7 +395,7 @@ Ld Debug/cmTC_09c02 normal x86_64
     Feature record: CXX_FEATURE:1cxx_static_assert
     Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_thread_local
     Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:1cxx_unicode_literals
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
@@ -544,30 +407,17 @@ Ld Debug/cmTC_09c02 normal x86_64
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d70a6" "-configuration" "Debug"
-2016-07-25 13:30:02.865 xcodebuild[11777:13364960] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_d70a6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/cmTC_d70a6.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_d70a6 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/cmTC_d70a6.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d70a6.build/Objects-normal/x86_64/cmTC_d70a6_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_d70a6
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_bd7a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd7a8.dir/build.make CMakeFiles/cmTC_bd7a8.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd7a8.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_bd7a8.dir/feature_tests.cxx.o -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bd7a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd7a8.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_bd7a8.dir/feature_tests.cxx.o  -o cmTC_bd7a8 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -618,7 +468,7 @@ Ld Debug/cmTC_d70a6 normal x86_64
     Feature record: CXX_FEATURE:1cxx_static_assert
     Feature record: CXX_FEATURE:1cxx_strong_enums
     Feature record: CXX_FEATURE:1cxx_template_template_parameters
-    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_thread_local
     Feature record: CXX_FEATURE:1cxx_trailing_return_types
     Feature record: CXX_FEATURE:1cxx_unicode_literals
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
@@ -630,30 +480,17 @@ Ld Debug/cmTC_d70a6 normal x86_64
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_18980" "-configuration" "Debug"
-2016-07-25 13:30:03.483 xcodebuild[11793:13365006] [MT] PluginLoading: Required plug-in compatibility UUID ACA8656B-FEA8-4B6D-8E4A-93F4C95C362C for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/OMQuickHelp.xcplugin' not present in DVTPlugInCompatibilityUUIDs
-=== BUILD TARGET cmTC_18980 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
-
-Check dependencies
-
-Write auxiliary files
-/bin/mkdir -p /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64
-write-file /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/cmTC_18980.LinkFileList
-
-CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/feature_tests.o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export LANG=en_US.US-ASCII
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.11 -g -Wno-sign-conversion -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/include -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/DerivedSources/x86_64 -I/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/feature_tests.dia -c /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/feature_tests.o
-
-Ld Debug/cmTC_18980 normal x86_64
-    cd /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp
-    export MACOSX_DEPLOYMENT_TARGET=10.11
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk -L/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -F/Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug -filelist /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/cmTC_18980.LinkFileList -mmacosx-version-min=10.11 -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18980.build/Objects-normal/x86_64/cmTC_18980_dependency_info.dat -o /Users/Scott/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp/Debug/cmTC_18980
-
-** BUILD SUCCEEDED **
-
+Run Build Command:"/usr/bin/make" "cmTC_acfe1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_acfe1.dir/build.make CMakeFiles/cmTC_acfe1.dir/build
+make[1]: Entering directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_acfe1.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_acfe1.dir/feature_tests.cxx.o -c /home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_acfe1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acfe1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_acfe1.dir/feature_tests.cxx.o  -o cmTC_acfe1 
+make[1]: Leaving directory '/home/hadoop/Code/artemis-core/cxx/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
