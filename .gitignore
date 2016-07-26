@@ -2,3 +2,4 @@ test/
 *.dll
 *.exe
 cxx/build/
+list
