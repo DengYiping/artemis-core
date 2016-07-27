@@ -67,35 +67,9 @@ namespace util{
     return output;
   }
 
-  /*recursively get file name
-   */
-  void GetFileListing(std::vector<std::string> &files, std::string dir) {
-    DIR *d;
-    if ((d = opendir(dir.c_str())) == NULL) return;
-    if (dir.at(dir.length() - 1) != '/') dir += "/";
-
-    struct dirent *dent;
-    struct stat st;
-
-    while ((dent = readdir(d)) != NULL) {
-      std::string path = dir;
-
-      if (std::string(dent->d_name) != "." && std::string(dent->d_name) != "..") {
-        path += std::string(dent->d_name);
-        const char *p = path.c_str();
-        lstat(p, &st);
-
-        if (S_ISDIR(st.st_mode)) {
-          GetFileListing(files, (path + std::string("/")).c_str());
-        } else {
-          files.push_back(path);
-        }
-      }
-    }
 
 
-    closedir(d);
-  }
+
 
   /* get hex string from file
    */
@@ -111,14 +85,6 @@ namespace util{
                std::istreambuf_iterator<char>());
 
     return string_to_hex(str);
-  }
-
-  /* get file list
-   */
-  std::vector<std::string> getFilenameVector(std::string folder_name){
-    std::vector<std::string> tmp = std::vector<std::string>();
-    GetFileListing(tmp, folder_name);
-    return tmp;
   }
 
   std::vector<std::tuple<int, std::vector<std::string>>> getAllSignatures(std::string& filename){
