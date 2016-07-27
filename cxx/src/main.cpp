@@ -38,40 +38,36 @@ int main(int argc, const char * argv[]) {
 
 void limited_memory_mode(){
   std::string filename = "dump.dat";
-  auto signList = util::getAllSignatures(filename);
+  auto components = util::getAllSignatures(filename);
   std::string path;
   std::vector<std::tuple<std::string, std::string>> files;
   threadtool::Threadsafe_queue<std::tuple<int, std::vector<std::string>>> queue;
 
-/*
-  std::thread t1(thread::thread_main, std::ref(queue), log, std::ref(files));
+  auto callback = [](int id, int count, std::string filename, int total){
+    using nlohmann::json;
+    if(count > 5 && (count / (double)total) > 0.01){
+      json js;
+      js["id"] = id;
+      js["count"] = count;
+      js["file"] = filename;
+      js["total"] = total;
+      js["percentage"] = count / (double)total;
+      std::cout<<js<<std::endl;
+    }
+  };
+
+  std::thread t1(thread::thread_main, std::ref(queue), callback, std::ref(files));
   threadtool::Thread_guard g1(t1);
-  std::thread t2(thread::thread_main, std::ref(queue), log, std::ref(files));
+  std::thread t2(thread::thread_main, std::ref(queue), callback, std::ref(files));
   threadtool::Thread_guard g2(t2);
-  std::thread t3(thread::thread_main, std::ref(queue), log, std::ref(files));
+  std::thread t3(thread::thread_main, std::ref(queue), callback, std::ref(files));
   threadtool::Thread_guard g3(t3);
-  std::thread t4(thread::thread_main, std::ref(queue), log, std::ref(files));
+  std::thread t4(thread::thread_main, std::ref(queue), callback, std::ref(files));
   threadtool::Thread_guard g4(t4);
-*/
-std::function<void(int, int, std::string, int)> callback = [](int id, int count, std::string filename, int total){
-  using nlohmann::json;
-  if(count > 5 && (count / (double)total) > 0.01){
-    json js;
-    js["id"] = id;
-    js["count"] = count;
-    js["file"] = filename;
-    js["total"] = total;
-    js["percentage"] = count / (double)total;
-    std::cout<<js<<std::endl;
-  }
-};
 
-
-std::thread t1(thread::thread_main, std::ref(queue), callback, std::ref(files));
-threadtool::Thread_guard g1(t1);
 
   while(1){
-    std::cout<<"Ready to start"<<std::endl;
+    std::cout<<"Type to start"<<std::endl;
     std::cin >> path;
     if(queue.empty()){
       if(files.size()){
@@ -84,12 +80,14 @@ threadtool::Thread_guard g1(t1);
       while(list_f.good() && !list_f.eof() && std::getline(list_f, buf)){
         files.push_back(std::make_tuple(buf, util::getHexString(buf)));
       }//read every file
-
+      std::cout<<"Scanner Started..."<<std::endl;
+      for(auto& component: components){
+        queue.push(component);
+      }
     }
-    std::cout<<"Scanner Started..."<<std::endl;
-
-
-
+    else{
+      std::cout<<"Wait for task to finish"<<std::endl;
+    }
   }
 
 }
