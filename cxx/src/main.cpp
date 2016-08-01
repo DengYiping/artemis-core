@@ -75,12 +75,13 @@ void limited_memory_mode(){
         queue.push(component);
       }
   }
-  
+
   while(1){
     std::this_thread::sleep_for(std::chrono::seconds(2));
     if(queue.empty()){
       break;
     }
   }
-  std::this_thread::sleep_for(std::chrono::seconds(30));
+  std::this_thread::sleep_for(std::chrono::seconds(20));
+  exit(0);
 }
