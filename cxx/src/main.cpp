@@ -17,7 +17,7 @@
 #include "worker.hpp"
 #include <thread>
 #include "threadtool.h"
-
+#include <chrono>
 void limited_memory_mode();
 
 
@@ -57,15 +57,15 @@ void limited_memory_mode(){
   };
 
   std::thread t1(thread::thread_main, std::ref(queue), callback, std::ref(files));
-  threadtool::Thread_guard g1(t1);
+  //threadtool::Thread_guard g1(t1);
   std::thread t2(thread::thread_main, std::ref(queue), callback, std::ref(files));
-  threadtool::Thread_guard g2(t2);
+  //threadtool::Thread_guard g2(t2);
   std::thread t3(thread::thread_main, std::ref(queue), callback, std::ref(files));
-  threadtool::Thread_guard g3(t3);
+  //threadtool::Thread_guard g3(t3);
   std::thread t4(thread::thread_main, std::ref(queue), callback, std::ref(files));
-  threadtool::Thread_guard g4(t4);
+  //threadtool::Thread_guard g4(t4);
 
-    if(queue.empty()){
+  if(queue.empty()){
       std::ifstream list_f("list");
       std::string buf;
       while(list_f.good() && !list_f.eof() && std::getline(list_f, buf)){
@@ -74,5 +74,13 @@ void limited_memory_mode(){
       for(auto& component: components){
         queue.push(component);
       }
+  }
+  
+  while(1){
+    std::this_thread::sleep_for(std::chrono::seconds(2));
+    if(queue.empty()){
+      break;
     }
+  }
+  std::this_thread::sleep_for(std::chrono::seconds(30));
 }
