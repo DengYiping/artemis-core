@@ -65,29 +65,14 @@ void limited_memory_mode(){
   std::thread t4(thread::thread_main, std::ref(queue), callback, std::ref(files));
   threadtool::Thread_guard g4(t4);
 
-
-  while(1){
-    std::cout<<"Type to start"<<std::endl;
-    std::cin >> path;
     if(queue.empty()){
-      if(files.size()){
-        files.erase(files.begin(), files.end());
-      }
-
-
       std::ifstream list_f("list");
       std::string buf;
       while(list_f.good() && !list_f.eof() && std::getline(list_f, buf)){
         files.push_back(std::make_tuple(buf, util::getHexString(buf)));
       }//read every file
-      std::cout<<"Scanner Started..."<<std::endl;
       for(auto& component: components){
         queue.push(component);
       }
     }
-    else{
-      std::cout<<"Wait for task to finish"<<std::endl;
-    }
-  }
-
 }
