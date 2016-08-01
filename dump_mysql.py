@@ -1,7 +1,7 @@
 import MySQLdb
 
 f = open("dump.dat", "w")
-mysql = MySQLdb.connect(user="root", passwd="123456", host="166.111.82.26", db="Artemis", charset="utf8")
+mysql = MySQLdb.connect(user="root", passwd="123456", host="166.111.82.26", db="Artemis-web", charset="utf8")
 cursor = mysql.cursor()
 #sql = "SELECT id, signatures FROM components WHERE coverity_scan != 'null' AND signatures IS NOT NULL"
 sql = "SELECT * FROM `signatures` join `components` where components.id = signatures.id and components.CPE_RESULT = 1 and components.status > 0 and signatures != '[\"\"]'"
