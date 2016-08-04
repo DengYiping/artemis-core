@@ -3,3 +3,7 @@ test/
 *.exe
 cxx/build/
 list
+.test1
+.test
+dump.dat
+dump.dat.bak
