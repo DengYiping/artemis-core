@@ -26,7 +26,7 @@ if(len(file_list) > 0):
             list_f.write(file_path + "\n")
 
 
-    cmd = "./artemis > result.json"
+    cmd = "/home/jeffrey/artemis/artemis-core/artemis > result.json"
     os.system(cmd)
 
     with open("result.json", "r") as outfile:
