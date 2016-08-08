@@ -37,8 +37,9 @@ def scan(id_, path, addr):
         os.system(cmd)
 
         #read result.json
+        load = lambda x: json.loads(x.replace(".strings", ""))
         with open("result.json", "r") as outfile:
-            result_json =  str(  json.dumps( map( json.loads, outfile.readlines() ) )  )
+            result_json =  str(  json.dumps( map( load, outfile.readlines() ) )  )
 
         #clean up
         os.remove("result.json")
