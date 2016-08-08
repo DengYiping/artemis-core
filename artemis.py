@@ -26,11 +26,12 @@ if(len(file_list) > 0):
             list_f.write(file_path + "\n")
 
 
-    cmd = "/home/jeffrey/artemis/artemis-core/artemis > result.json"
+    cmd = "./artemis > result.json"
     os.system(cmd)
 
+    load = lambda x: json.loads(x.replace(".strings", ""))
     with open("result.json", "r") as outfile:
-        print json.dumps( map( json.loads, outfile.readlines() ) )
+        print json.dumps( map( load, outfile.readlines() ) )
 
     os.remove("result.json")
 #shutil.rmtree(dir_, ignore_errors=True)
