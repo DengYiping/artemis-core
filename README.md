@@ -1,6 +1,8 @@
 # Artemis Core
 
 ## Introduction
+Artemis is a system that can find components in compiled binary executable. We are using it to find vulnerable components and give user feedback on it.
+
 
 This is artemis's core algorithm implmentation.
 Core algorithm is purely C++, enjoy the speed boost.
@@ -22,6 +24,7 @@ Core algorithm is purely C++, enjoy the speed boost.
 - Scan a directory and generate a file list by `python filefinder.py DIRECTORY_NAME`
 - RUN the program by `./artemis-core`
 - Enter any key to start
+
 ## TODO
 
 - [X] Create Common Interfaces
