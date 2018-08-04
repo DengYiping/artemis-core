@@ -3,9 +3,12 @@
 ## Introduction
 Artemis is a system that can find components in compiled binary executable. We are using it to find vulnerable components and give user feedback on it.
 
+I created this program while I was having a internship in Tsinghua University Software Security Lab, one of the top University in China.
+
 
 This is artemis's core algorithm implmentation.
 Core algorithm is purely C++, enjoy the speed boost.
+
 ## Requirements:
  1. A C++ compiler supporting C++11 (either clang, gcc or Visual Studio)
  2. cmake
